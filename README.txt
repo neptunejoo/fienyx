@@ -20,24 +20,6 @@ fienyx-website/
 └── css/
     └── styles.css      → Main stylesheet (shared by both HTML pages)
 
-HOW TO DEPLOY
---------------
-Option 1 — GitHub Pages (free):
-  1. Create a GitHub repo (e.g. fienyxtranslation.github.io)
-  2. Upload all files preserving the folder structure
-  3. Go to Settings > Pages > Deploy from branch (main / root)
-  4. Your site will be live at https://fienyxtranslation.github.io
-
-Option 2 — Netlify Drop (instant):
-  1. Go to https://app.netlify.com/drop
-  2. Drag & drop the entire fienyx-website/ folder
-  3. Your site is live instantly with a free subdomain
-
-Option 3 — Vercel:
-  1. Go to https://vercel.com
-  2. Connect your GitHub repo or drag & drop
-  3. Vercel auto-detects static HTML and deploys
-
 CUSTOMIZING
 ------------
 Colors: Edit the CSS variables in css/styles.css under :root {}
@@ -46,14 +28,6 @@ Colors: Edit the CSS variables in css/styles.css under :root {}
   --mauve:       #a58c85  (warm taupe)
   --periwinkle:  #8788ae  (blue-purple / interactive)
   --lavender:    #9494bc  (lighter purple)
-
-Email: Replace "contact@fienyxtranslation.com" with your actual email
-       (search & replace in both index.html and id.html)
-
-Social Links: Update all href="https://..." links in the footer section
-
-Team Photos: Replace the placeholder letters in .team-avatar-placeholder
-  divs with actual <img> tags pointing to your photo files.
 
 LANGUAGE SWITCHING
 -------------------
@@ -72,8 +46,8 @@ Each page includes:
 
 CONTACT
 --------
-Website: https://fienyxtranslation.github.io
-Email:   contact@fienyxtranslation.com
+Website: https://fienyxtranslation.site
+Email:   contact@fienyxtranslation.site
 Facebook: https://web.facebook.com/Fienyx.translation
 Twitter:  https://twitter.com/Fienyxtrans
 
