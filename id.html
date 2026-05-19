@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- ===== PRIMARY SEO ===== -->
-  <title>Fienyx Translation — Solusi Bahasa Terpercaya Anda | Yogyakarta</title>
+   <title>Fienyx Translation — Solusi Bahasa Terpercaya Anda | Penerjemahan, Transkripsi, Penyuntingan | Yogyakarta</title>
   <meta name="description" content="Fienyx Translation adalah solusi bahasa terpercaya Anda untuk penerjemahan profesional (EN↔ID), transkripsi cerdas, proofreading bebas kesalahan, dan penyuntingan substantif. Berbasis di Yogyakarta, Indonesia." />
   <meta name="keywords" content="jasa terjemahan indonesia, penerjemahan, penyelarasan teks, transkripsi, terjemahan inggris indonesia, terjemahan akademik, terjemahan hukum, yogyakarta" />
   <meta name="author" content="Fienyx Translation" />
@@ -28,7 +28,7 @@
   <!-- ===== TWITTER CARD ===== -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@Fienyxtrans" />
-  <meta name="twitter:title" content="Fienyx Translation — Solusi Bahasa Terpercaya Anda." />
+  <meta name="twitter:title" content="Fienyx Translation: Solusi Bahasa Terpercaya Anda." />
   <meta name="twitter:description" content="Penerjemahan profesional, transkripsi, dan penyelarasan teks. Solusi bahasa terpercaya sejak 2017." />
 
   <!-- ===== FAVICON ===== -->
@@ -50,7 +50,7 @@
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Fienyx Translation",
-    "description": "Layanan penerjemahan profesional, transkripsi, penyelarasan teks, dan penyuntingan substantif. Terverifikasi manusia sejak 2017.",
+    "description": "Layanan penerjemahan profesional, transkripsi, penyelarasan teks, dan penyuntingan substantif. Berdiri sejak 2017.",
     "url": "https://fienyxtranslation.site/id.html",
     "email": "contact@fienyxtranslation.site",
     "foundingDate": "2017-12",
@@ -69,6 +69,198 @@
     "inLanguage": ["id", "en"]
   }
   </script>
+
+  <!-- Pricing Section Styles -->
+  <style>
+  #pricing {
+    padding: 5rem 2rem 4rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .pricing-card {
+    background: var(--surface, #fff);
+    border: 1.5px solid var(--border, #e8e0da);
+    border-radius: 8px;
+    padding: 1.6rem 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    transition: box-shadow 0.25s ease, border-color 0.25s ease;
+  }
+
+  .pricing-card:hover {
+    box-shadow: 0 6px 24px rgba(45,60,124,0.10);
+    border-color: var(--periwinkle, #8788ae);
+  }
+
+  .pricing-card-header h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.45rem;
+    font-weight: 600;
+    color: var(--navy, #2d3c7c);
+    margin: 0 0 0.15rem;
+  }
+
+  .pricing-lang {
+    font-size: 0.8rem;
+    color: var(--muted, #888);
+    font-style: italic;
+    margin: 0;
+  }
+
+  .pricing-rate {
+    border-top: 1px solid var(--border, #e8e0da);
+    padding-top: 0.8rem;
+  }
+
+  .pricing-amount {
+    display: block;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--navy, #2d3c7c);
+  }
+
+  .pricing-unit {
+    font-size: 0.78rem;
+    color: var(--muted, #888);
+  }
+
+  .pricing-usd {
+    font-size: 0.82rem;
+    color: var(--muted, #888);
+    background: rgba(138,140,174,0.10);
+    border-radius: 4px;
+    padding: 0.3rem 0.6rem;
+    display: inline-block;
+  }
+
+  .pricing-usd strong {
+    color: var(--periwinkle, #8788ae);
+  }
+
+  .pricing-includes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--body, #3a3334);
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .pricing-includes li::before {
+    content: "✓ ";
+    color: var(--periwinkle, #8788ae);
+    font-weight: 700;
+  }
+
+  .pricing-surcharge {
+    border-top: 1px dashed var(--border, #e8e0da);
+    padding-top: 0.7rem;
+    font-size: 0.78rem;
+    color: var(--muted, #888);
+    margin-top: auto;
+  }
+
+  .pricing-surcharge p {
+    margin: 0 0 0.35rem;
+    font-weight: 500;
+  }
+
+  .pricing-surcharge ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .pricing-surcharge li::before {
+    content: "+ ";
+    color: var(--blush, #f9d2ca);
+  }
+
+  .pricing-surcharge em {
+    font-style: normal;
+    color: var(--blush-dark, #c7958a);
+    font-weight: 600;
+  }
+
+  .pricing-footnote {
+    font-size: 0.82rem;
+    color: var(--muted, #888);
+    margin-top: 1.5rem;
+    max-width: 680px;
+  }
+
+  .pricing-payment {
+    margin-top: 2.5rem;
+    padding: 1.8rem;
+    background: var(--surface, #fff);
+    border: 1.5px solid var(--border, #e8e0da);
+    border-radius: 8px;
+    max-width: 680px;
+  }
+
+  .pricing-payment h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    color: var(--navy, #2d3c7c);
+    margin: 0 0 1rem;
+  }
+
+  .payment-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  @media (min-width: 600px) {
+    .payment-methods { flex-direction: row; gap: 1.5rem; }
+  }
+
+  .payment-method {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    flex: 1;
+  }
+
+  .payment-icon {
+    font-size: 1.5rem;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  .payment-method strong {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--navy, #2d3c7c);
+    margin-bottom: 0.25rem;
+  }
+
+  .payment-method p {
+    font-size: 0.8rem;
+    color: var(--muted, #888);
+    margin: 0;
+  }
+
+  @media (max-width: 600px) {
+    .pricing-grid { grid-template-columns: 1fr; }
+    #pricing { padding: 3.5rem 1.25rem 3rem; }
+  }
+  </style>
 </head>
 <body>
 
@@ -84,6 +276,18 @@
 <!-- BACK TO TOP -->
 <button id="back-top" aria-label="Kembali ke atas">↑</button>
 
+<!-- WHATSAPP FLOATING BUTTON -->
+<a href="https://wa.me/6285743254350?text=Halo%20Fienyx%20Translation%2C%20saya%20ingin%20bertanya%20mengenai%20layanan%20Anda."
+   class="whatsapp-float"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Chat dengan kami di WhatsApp">
+  <svg viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M16 2C8.268 2 2 8.268 2 16c0 2.522.666 4.886 1.83 6.938L2 30l7.29-1.807A13.92 13.92 0 0 0 16 30c7.732 0 14-6.268 14-14S23.732 2 16 2Zm0 25.6a11.54 11.54 0 0 1-5.86-1.6l-.42-.25-4.33 1.074 1.097-4.218-.275-.433A11.562 11.562 0 0 1 4.4 16C4.4 9.592 9.592 4.4 16 4.4S27.6 9.592 27.6 16 22.408 27.6 16 27.6Zm6.34-8.62c-.348-.174-2.062-1.018-2.382-1.133-.32-.116-.554-.174-.787.174-.234.348-.905 1.133-1.11 1.367-.204.234-.407.261-.756.087-.348-.174-1.47-.542-2.8-1.727-1.034-.922-1.733-2.062-1.937-2.41-.203-.348-.022-.536.153-.709.157-.155.348-.406.522-.609.174-.203.232-.348.348-.582.116-.232.058-.436-.029-.609-.087-.174-.787-1.897-1.078-2.598-.284-.682-.573-.59-.787-.6l-.67-.012c-.232 0-.61.087-.928.435-.32.348-1.22 1.192-1.22 2.907 0 1.715 1.25 3.373 1.424 3.607.174.232 2.46 3.757 5.96 5.27.834.36 1.485.575 1.993.736.837.267 1.6.229 2.202.139.672-.1 2.062-.843 2.354-1.657.29-.815.29-1.513.204-1.657-.087-.145-.32-.232-.668-.406Z"/>
+  </svg>
+  <span class="whatsapp-float-label">Chat di WhatsApp</span>
+</a>
+
 <!-- SIDEBAR TOGGLE (mobile) -->
 <button id="sidebarToggle" aria-label="Buka/tutup menu navigasi" aria-expanded="false" aria-controls="sidebar">
   <span></span><span></span><span></span>
@@ -94,7 +298,7 @@
 
 <!-- SIDEBAR NAV -->
 <nav id="sidebar" role="navigation" aria-label="Navigasi utama">
-  <a href="#hero" class="sidebar-logo" aria-label="Fienyx Translation — Beranda">
+  <a href="#hero" class="sidebar-logo" aria-label="Fienyx Translation: Beranda">
     <div class="sidebar-logo-mark" aria-hidden="true"><img src="/images/favicon-16x16.png" alt="Fienyx Logo"></div>
     <div class="sidebar-logo-text">Fienyx <span>Translation</span></div>
   </a>
@@ -112,16 +316,23 @@
       <span class="sidebar-link-icon" aria-hidden="true">◇</span>
       <span class="sidebar-link-label">Jasa yang Kami Tawarkan</span>
     </a>
+    <a href="#pricing" class="sidebar-link" role="listitem" data-tooltip="Tarif">
+      <span class="sidebar-link-icon" aria-hidden="true">◉</span>
+      <span class="sidebar-link-label">Tarif</span>
+    </a>
     <a href="#compare" class="sidebar-link" role="listitem" data-tooltip="Sebelum & Sesudah">
       <span class="sidebar-link-icon" aria-hidden="true">⟨⟩</span>
       <span class="sidebar-link-label">Perbandingan Teks</span>
+    </a>
+    <a href="#faq" class="sidebar-link" role="listitem" data-tooltip="FAQ">
+      <span class="sidebar-link-icon" aria-hidden="true">?</span>
+      <span class="sidebar-link-label">FAQ</span>
     </a>
     <a href="#contact" class="sidebar-link" role="listitem" data-tooltip="Kontak">
       <span class="sidebar-link-icon" aria-hidden="true">✉</span>
       <span class="sidebar-link-label">Kontak</span>
     </a>
   </div>
-
   <a href="#apply" class="sidebar-cta" data-tooltip="Ajukan Penawaran">
     <span class="sidebar-link-icon" aria-hidden="true">✦</span>
     <span class="sidebar-cta-label">Mulai Kolaborasi</span>
@@ -165,12 +376,12 @@
           <div class="stat-label">Tahun Dipercaya</div>
         </div>
         <div class="stat-item">
-          <div class="stat-num">5</div>
+          <div class="stat-num">6</div>
           <div class="stat-label">Jasa yang Ditawarkan</div>
         </div>
         <div class="stat-item">
           <div class="stat-num">100%</div>
-          <div class="stat-label">Direview Langsung oleh Ahli</div>
+          <div class="stat-label">Direview Langsung oleh Ahli Bahasa</div>
         </div>
       </div>
     </div>
@@ -202,16 +413,16 @@
 <section id="about" aria-labelledby="about-heading">
   <div class="about-grid">
     <div class="about-intro reveal">
-      <div class="section-label">01 — Tentang Kami</div>
-      <h2 id="about-heading" class="section-title">Tim ahli bahasa yang terpercaya</h2>
+      <div class="section-label">01 · Tentang Kami</div>
+      <h2 id="about-heading" class="section-title">Tim ahli bahasa yang terpercaya.</h2>
       <p>
-        <strong>Fienyx Translation</strong> berdiri pada Desember 2017 dengan satu tekad yang sederhana namun sungguh-sungguh: menghadirkan layanan bahasa berkualitas tinggi yang benar-benar terjangkau dan bisa diandalkan oleh setiap klien yang mempercayakan tulisannya kepada kami.
+        <strong>Fienyx Translation</strong> berdiri pada Desember 2017 dengan satu misi yang sederhana, yaitu menghadirkan jasa berkualitas tinggi namun terjangkau. 
       </p>
       <p>
-        Nama kami dibangun di atas tiga hal yang tidak kami kompromikan: akurasi yang ketat, komunikasi yang terbuka, dan rasa hormat yang tulus terhadap setiap bahasa yang kami tangani. Itulah yang membedakan kami dari sekadar penyedia jasa terjemahan biasa.
+        Nama kami dibangun di atas tiga landasan utama: akurasi, transparansi komunikasi, dan kepedulian terhadap bahasa sumber. Inilah yang membedakan kami dari sekadar penyedia jasa terjemahan biasa. 
       </p>
       <p>
-        Kami bukan hanya penerjemah. Kami adalah jembatan antarbahasa dan antarbudaya, yang hadir agar pesan Anda tersampaikan dengan tepat, tidak hanya secara kata, tetapi juga secara makna.
+         Kami bukan hanya penerjemah. Kami adalah jembatan antarbahasa dan antarbudaya yang hadir agar pesan Anda tersampaikan secara keseluruhan. 
       </p>
       <span class="about-tag">Berdiri Desember 2017 · Yogyakarta, Indonesia</span>
     </div>
@@ -248,7 +459,7 @@
     <div class="workflow-icon" aria-hidden="true"><img src="/images/Fienyx - Icon.png" alt="Translation" width="200" height="200"></div>
     <div>
       <h3>Memadukan teknologi AI dengan Analisis Manusia untuk Hasil yang Berkualitas</h3>
-      <p>Kami memanfaatkan teknologi AI untuk mempercepat tahap awal pemrosesan, lalu menyerahkan hasilnya kepada para ahli kami untuk mengerjakan hal yang paling menentukan: nuansa bahasa, ketepatan teknis, kesesuaian budaya, dan hasil yang bebas dari kesalahan. Di era ketika AI bisa menghasilkan teks dalam hitungan detik, nilai investasi Anda yang sesungguhnya ada pada team yang memverifikasi, menyempurnakan, dan bertanggung jawab penuh atas setiap kata.</p>
+      <p>Kami memanfaatkan teknologi AI untuk mempercepat tahap awal pemrosesan, lalu menyerahkan hasilnya kepada para ahli kami untuk mengerjakan hal yang paling menentukan: nuansa bahasa, ketepatan teknis, kesesuaian budaya, dan hasil yang bebas dari kesalahan. Di era ketika AI bisa menghasilkan teks dalam hitungan detik, nilai investasi Anda yang sesungguhnya ada pada tim yang memverifikasi, menyempurnakan, dan bertanggung jawab penuh atas setiap kata, termasuk konten yang dihasilkan AI itu sendiri.</p>
       <div class="workflow-badge">✦ Diperbarui Sesuai Standar 2026</div>
     </div>
   </div>
@@ -258,11 +469,12 @@
 <section id="services" aria-labelledby="services-heading">
   <div class="services-intro">
     <div class="reveal">
-      <div class="section-label">02 — Spesialisasi Kami</div>
+      <div class="section-label">02 · Spesialisasi Kami</div>
       <h2 id="services-heading" class="section-title">Fokus Spesialisasi Kami</h2>
     </div>
     <p class="services-lead reveal" style="transition-delay:.1s">
-      Setiap proyek yang kami kerjakan tunduk pada tiga hal yang tidak bisa ditawar: ketepatan waktu, akurasi yang terverifikasi, dan kerahasiaan penuh. <br> Dengan dukungan tim penerjemah, perevis, dan penyunting yang berpengalaman, dokumen Anda akan diproses dengan ketelitian tinggi dan kualitas terbaik.
+      Setiap proyek yang kami kerjakan berdasarkan tiga hal: ketepatan waktu, akurasi, perlindungan privasi. 
+      <br> Dengan dukungan tim penerjemah, perevis, dan penyunting yang berpengalaman, dokumen Anda akan diproses dengan ketelitian tinggi dan kualitas terbaik.
     </p>
   </div>
   <div class="services-grid">
@@ -296,22 +508,29 @@
       <p>Transkrip audio dan video lengkap dengan penanda waktu (timestamp) dan identifikasi pembicara. Melalui proses audit manual dan dioptimalkan untuk kebutuhan SEO, basis data, atau aksesibilitas. Tersedia format teks film (SRT/VTT).</p>
       <span class="service-tag">#AuditManual</span><span class="service-tag">#OptimasiSEO</span><span class="service-tag">#AkurasiAudio-Visual</span>
     </div>
+    <div class="service-card reveal" style="transition-delay:.40s">
+      <div class="service-icon" aria-hidden="true"><img src="/images/Fienyx - Icon AI content.png" alt="AI Content"></div>
+      <h3>Penyuntingan Konten AI</h3>
+      <p>AI bisa menghasilkan draf dalam hitungan detik, tetapi konten yang kredibel dan siap publikasi tetap membutuhkan sentuhan ahli manusia. Kami memeriksa, menyempurnakan, dan memanusiakan teks buatan AI agar memenuhi standar publikasi, mencerminkan suara merek Anda, dan lolos dari pengujian audiens.</p>
+      <span class="service-tag">#HumanisasiKontenAI</span><span class="service-tag">#VerifikasiFakta</span><span class="service-tag">#SuaraMerek</span><span class="service-tag">#SiapPublikasi</span>
+    </div>
   </div>
 </section>
 
 <!-- OFFERINGS (TABS) -->
 <section id="offerings" aria-labelledby="offerings-heading">
   <div class="reveal">
-    <div class="section-label">03 — Jasa yang Kami Tawarkan</div>
+    <div class="section-label">03 · Jasa yang Kami Tawarkan</div>
     <h2 id="offerings-heading" class="section-title">Jasa yang Kami Tawarkan</h2>
   </div>
 
   <div class="tabs-nav" style="margin-top:2.5rem" role="tablist" aria-label="Jenis layanan">
     <button class="tab-btn active" data-tab="translating" role="tab" aria-selected="true" aria-controls="tab-translating" id="btn-translating">Penerjemahan</button>
-    <button class="tab-btn" data-tab="transcription" role="tab" aria-selected="false" aria-controls="tab-transcription" id="btn-transcription">Transkripsi Teks</button>
-    <button class="tab-btn" data-tab="light-editing" role="tab" aria-selected="false" aria-controls="tab-light-editing" id="btn-light-editing">Penyuntingan Teks Ringan</button>
-    <button class="tab-btn" data-tab="heavy-editing" role="tab" aria-selected="false" aria-controls="tab-heavy-editing" id="btn-heavy-editing">Penyuntingan Teks Berat</button>
-    <button class="tab-btn" data-tab="proofreading" role="tab" aria-selected="false" aria-controls="tab-proofreading" id="btn-proofreading">Penyelarasan Teks</button>
+    <button class="tab-btn" data-tab="transcription" role="tab" aria-selected="false" aria-controls="tab-transcription" id="btn-transcription">Transkripsi</button>
+    <button class="tab-btn" data-tab="light-editing" role="tab" aria-selected="false" aria-controls="tab-light-editing" id="btn-light-editing">Penyuntingan Ringan</button>
+    <button class="tab-btn" data-tab="heavy-editing" role="tab" aria-selected="false" aria-controls="tab-heavy-editing" id="btn-heavy-editing">Penyuntingan Mendalam</button>
+    <button class="tab-btn" data-tab="proofreading" role="tab" aria-selected="false" aria-controls="tab-proofreading" id="btn-proofreading">Proofreading</button>
+    <button class="tab-btn" data-tab="ai-editing" role="tab" aria-selected="false" aria-controls="tab-ai-editing" id="btn-ai-editing">Penyuntingan Konten AI</button>
   </div>
 
   <div class="tab-content active" id="tab-translating" role="tabpanel" aria-labelledby="btn-translating">
@@ -360,7 +579,7 @@
     <div class="tab-info">
       <div class="tab-badge">Layanan Penyuntingan</div>
       <h2>Penyuntingan Ringan</h2>
-      <p>Pemeriksaan terfokus yang menyisir kesalahan-kesalahan di permukaan dan menghaluskan bagian yang kurang lancar, tanpa menyentuh suara dan struktur asli tulisan Anda. Cocok untuk teks yang sudah hampir matang dan hanya butuh sentuhan akhir agar benar-benar bersih, jelas, dan enak dibaca.</p>
+      <p>Pemeriksaan terfokus yang menyisir kesalahan di permukaan dan menghaluskan bagian yang kurang lancar, tanpa menyentuh suara dan struktur asli tulisan Anda. Cocok untuk teks yang sudah hampir matang dan hanya butuh sentuhan akhir agar bersih, jelas, dan enak dibaca. Layanan ini juga tepat untuk konten AI yang membutuhkan perbaikan tata bahasa dan nada sebelum digunakan.</p>
       <a href="#apply" class="btn-primary" style="display:inline-block;margin-top:1.5rem">Mulai Kolaborasi</a>
     </div>
     <div>
@@ -371,6 +590,7 @@
         <li>Kekeliruan pada fakta umum dan pengetahuan dasar</li>
         <li>Pilihan kata yang tidak sesuai subjek atau pembaca sasaran</li>
         <li>Panduan izin kutipan dan penulisan sitasi</li>
+        <li>Perbaikan tata bahasa dan nada untuk konten AI</li>
       </ul>
     </div>
   </div>
@@ -378,9 +598,9 @@
   <div class="tab-content" id="tab-heavy-editing" role="tabpanel" aria-labelledby="btn-heavy-editing">
     <div class="tab-info">
       <div class="tab-badge">Penyuntingan Substantif</div>
-      <h2>Penyuntingan Berat</h2>
+      <h2>Penyuntingan Mendalam</h2>
       <p>Revisi menyeluruh dari sisi struktur maupun bahasa, mulai dari kohesi, koherensi, paralelisme, hingga kejelasan isi secara keseluruhan. Kami memperkuat alur logis, memangkas pengulangan, dan menyesuaikan konten agar relevan secara budaya bagi audiens yang Anda sasar.</p>
-      <p>Kami membedakan antara <em>Penyuntingan Teknis</em> (presisi dan kejelasan) dan <em>Penyuntingan Kreatif</em> (nada dan gaya), dan menerapkan keduanya sesuai kebutuhan proyek Anda.</p>
+      <p>Kami membedakan antara <em>Penyuntingan Teknis</em> (presisi dan kejelasan) dan <em>Penyuntingan Kreatif</em> (nada dan gaya), dan menerapkan keduanya sesuai kebutuhan proyek Anda. Layanan ini juga sangat efektif untuk konten AI yang perlu distrukturisasi ulang, diverifikasi faktanya, dan diberi nuansa bahasa yang alami.</p>
       <a href="#apply" class="btn-primary" style="display:inline-block;margin-top:1.5rem">Mulai Kolaborasi</a>
     </div>
     <div>
@@ -392,6 +612,8 @@
         <li>Penyesuaian lintas budaya untuk demografis target</li>
         <li>Pilihan retorika dan gaya bahasa</li>
         <li>Kata ganti dan konjungsi untuk kelancaran bacaan</li>
+        <li>Restrukturisasi mendalam dan humanisasi konten AI</li>
+        <li>Deteksi halusinasi dan kesalahan fakta pada konten AI</li>
       </ul>
     </div>
   </div>
@@ -399,9 +621,9 @@
   <div class="tab-content" id="tab-proofreading" role="tabpanel" aria-labelledby="btn-proofreading">
     <div class="tab-info">
       <div class="tab-badge">Jaminan Kualitas Linguistik</div>
-      <h2>Proofreading Tanpa Celah Kesalahan</h2>
+      <h2>Proofreading Bebas Kesalahan</h2>
       <p>Audit <strong style="color:var(--blush)">Jaminan Kualitas Linguistik</strong> berlapis yang jauh melampaui sekadar cek ejaan. Kami memverifikasi tata bahasa, konsistensi format, dan keselarasan suara merek untuk memastikan dokumen Anda benar-benar siap dipublikasikan.</p>
-      <p>Anggap layanan ini sebagai garis pertahanan terakhir untuk kampanye pemasaran berdampak tinggi, naskah akademik, dan publikasi apa pun yang tidak bisa mentoleransi satu kesalahan pun.</p>
+      <p>Anggap layanan ini sebagai garis pertahanan terakhir untuk kampanye berdampak tinggi, naskah akademik, dan publikasi apa pun yang tidak bisa mentoleransi satu kesalahan pun. Kami juga menawarkan pemeriksaan akhir khusus konten AI untuk menangkap frasa kaku, pola berulang, dan ketidakkonsistenan yang sering luput dari pemeriksaan otomatis.</p>
       <a href="#apply" class="btn-primary" style="display:inline-block;margin-top:1.5rem">Mulai Kolaborasi</a>
     </div>
     <div>
@@ -413,6 +635,29 @@
         <li>Pemeriksaan keselarasan suara merek</li>
         <li>Konsistensi format di seluruh dokumen</li>
         <li>Kekeliruan kecil dari penulis atau penyunting</li>
+        <li>Pemeriksaan akhir konten AI: frasa kaku dan ketidakkonsistenan</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="tab-content" id="tab-ai-editing" role="tabpanel" aria-labelledby="btn-ai-editing">
+    <div class="tab-info">
+      <div class="tab-badge">Layanan Baru</div>
+      <h2>Penyuntingan Konten AI &amp; Humanisasi</h2>
+      <p>AI dapat menghasilkan draf pertama dalam hitungan detik, tetapi teks mentah dari AI jarang langsung siap tayang. Bisa jadi berulang, lemah secara fakta, datar dalam nada, atau kurang memiliki kedalaman yang diharapkan pembaca Anda. Tim kami hadir untuk menjembatani celah itu, mengubah draf AI menjadi konten yang akurat, menarik, dan benar-benar mencerminkan identitas Anda.</p>
+      <p>Apakah Anda butuh perbaikan ringan atau revisi struktural menyeluruh, kami menerapkan tingkat keahlian manusia yang tepat agar konten AI Anda benar-benar bekerja.</p>
+      <a href="#apply" class="btn-primary" style="display:inline-block;margin-top:1.5rem">Mulai Kolaborasi</a>
+    </div>
+    <div>
+      <ul class="tab-list">
+        <li>Koreksi tata bahasa, nada, dan koherensi</li>
+        <li>Humanisasi: menghapus frasa kaku dan meningkatkan kelancaran alami</li>
+        <li>Deteksi halusinasi dan kesalahan fakta</li>
+        <li>Penyesuaian suara merek dan konsistensi</li>
+        <li>Peningkatan alur dan struktur logis</li>
+        <li>Tinjauan kepekaan budaya dan lokalisasi</li>
+        <li>Verifikasi kutipan, referensi, dan sumber</li>
+        <li>Post-Editing Terjemahan Mesin (PEMT) untuk draf terjemahan AI</li>
       </ul>
     </div>
   </div>
@@ -440,12 +685,168 @@
   </div>
 </section>
 
+<!-- PRICING -->
+<section id="pricing" aria-labelledby="pricing-heading">
+  <div class="reveal">
+    <div class="section-label">04 · Tarif </div>
+    <h2 id="pricing-heading" class="section-title">Tarif Jasa yang Ditawarkan.</h2>
+  </div>
+  <p class="reveal" style="max-width:680px;color:var(--muted);margin:1.2rem 0 0.4rem;transition-delay:.05s">
+    Tarif kami mengacu pada standar yang ditetapkan oleh 
+    <a href="https://www.hpi.or.id/acuan-tarif-penerjemahan" target="_blank" rel="noopener" style="color:var(--periwinkle);text-decoration:underline;text-underline-offset:3px">HPI (Himpunan Penerjemah Indonesia)</a>
+    dan selaras dengan 
+    <a href="https://jdih.kemenkeu.go.id/api/download/ccce2e9f-11fe-41ee-9da3-c7d42609b484/2025pmkeuangan032.pdf" target="_blank" rel="noopener" style="color:var(--periwinkle);text-decoration:underline;text-underline-offset:3px">Peraturan Menteri Keuangan No. 32/2025</a>
+    (Standar Biaya Masukan Tahun Anggaran 2026, halaman 69). Setara USD dihitung berdasarkan kurs yang berlaku.
+  </p>
+  <p class="reveal" style="max-width:680px;color:var(--muted);margin:0.5rem 0 2rem;transition-delay:.08s">
+    <strong style="color:var(--blush)">Klien yang kembali lagi dan proyek bervolume besar berpotensi mendapatkan diskon</strong>. Cukup sebutkan saat Anda mengajukan permintaan dan kami akan mendiskusikannya bersama.
+  </p>
+
+  <div class="pricing-grid reveal" style="transition-delay:.1s">
+
+    <!-- Penerjemahan -->
+    <div class="pricing-card">
+      <div class="pricing-card-header">
+        <div class="tab-badge" style="margin-bottom:.6rem">Jasa Utama</div>
+        <h3>Penerjemahan</h3>
+        <p class="pricing-lang">Inggris ↔ Bahasa Indonesia</p>
+      </div>
+      <div class="pricing-rate">
+        <span class="pricing-amount">Rp 250.000</span>
+        <span class="pricing-unit">/ halaman jadi*</span>
+      </div>
+      <div class="pricing-usd">≈ <strong>$16</strong> USD / halaman &nbsp;·&nbsp; ~$0,06 / kata</div>
+      <ul class="pricing-includes">
+        <li>Dokumen akademik, hukum, bisnis &amp; kreatif</li>
+        <li>Adaptasi budaya &amp; lokalisasi</li>
+        <li>Diverifikasi oleh ahli bahasa manusia</li>
+      </ul>
+      <div class="pricing-surcharge">
+        <p>Biaya tambahan berlaku untuk:</p>
+        <ul>
+          <li>Naskah teknik / hukum / medis <em>(+20%)</em></li>
+          <li>Tenggat waktu mendesak <em>(+25–50%)</em></li>
+          <li>DTP / format kompleks <em>(+20%)</em></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Transkripsi -->
+    <div class="pricing-card">
+      <div class="pricing-card-header">
+        <div class="tab-badge" style="margin-bottom:.6rem">Standar 2026</div>
+        <h3>Transkripsi</h3>
+        <p class="pricing-lang">Audio / Video → Teks</p>
+      </div>
+      <div class="pricing-rate">
+        <span class="pricing-amount">Rp 24.000</span>
+        <span class="pricing-unit">/ menit audio</span>
+      </div>
+      <div class="pricing-usd">≈ <strong>$1,50</strong> USD / menit</div>
+      <ul class="pricing-includes">
+        <li>Dilengkapi penanda waktu &amp; identifikasi pembicara</li>
+        <li>Output subtitle SRT/VTT tersedia</li>
+        <li>Audit manusia untuk koreksi kesalahan AI</li>
+      </ul>
+      <div class="pricing-surcharge">
+        <p>Biaya tambahan berlaku untuk:</p>
+        <ul>
+          <li>Banyak pembicara / audio tumpang tindih <em>(+25%)</em></li>
+          <li>Konten teknis / medis <em>(+20%)</em></li>
+          <li>Pengiriman mendesak <em>(+25–50%)</em></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Penyuntingan -->
+    <div class="pricing-card">
+      <div class="pricing-card-header">
+        <div class="tab-badge" style="margin-bottom:.6rem">Layanan Penyuntingan</div>
+        <h3>Penyuntingan</h3>
+        <p class="pricing-lang">Ringan &amp; Berat / Substantif</p>
+      </div>
+      <div class="pricing-rate">
+        <span class="pricing-amount">Rp 100.000–175.000</span>
+        <span class="pricing-unit">/ halaman jadi*</span>
+      </div>
+      <div class="pricing-usd">≈ <strong>$6–$11</strong> USD / halaman &nbsp;·&nbsp; ~$0,025–0,04 / kata</div>
+      <ul class="pricing-includes">
+        <li>Ringan: tata bahasa, ejaan, kesalahan permukaan</li>
+        <li>Berat: struktur, alur, dan kejelasan menyeluruh</li>
+        <li>Penyuntingan teknis &amp; kreatif dibedakan</li>
+      </ul>
+      <div class="pricing-surcharge">
+        <p>Tarif ditentukan oleh:</p>
+        <ul>
+          <li>Penyuntingan ringan: ujung bawah rentang</li>
+          <li>Penyuntingan berat / substantif: ujung atas</li>
+          <li>Pengiriman mendesak <em>(+25–50%)</em></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Proofreading -->
+    <div class="pricing-card">
+      <div class="pricing-card-header">
+        <div class="tab-badge" style="margin-bottom:.6rem">Jaminan Kualitas Linguistik</div>
+        <h3>Penyelarasan Teks</h3>
+        <p class="pricing-lang">Review</p>
+      </div>
+      <div class="pricing-rate">
+        <span class="pricing-amount">Rp 75.000</span>
+        <span class="pricing-unit">/ halaman jadi*</span>
+      </div>
+      <div class="pricing-usd">≈ <strong>$5</strong> USD / halaman &nbsp;·&nbsp; ~$0,02 / kata</div>
+      <ul class="pricing-includes">
+        <li>Audit berlapis tanpa celah kesalahan</li>
+        <li>Pemeriksaan keselarasan suara merek</li>
+        <li>Tinjauan format &amp; konsistensi</li>
+      </ul>
+      <div class="pricing-surcharge">
+        <p>Biaya tambahan berlaku untuk:</p>
+        <ul>
+          <li>Format akademik kompleks <em>(+15%)</em></li>
+          <li>Pengiriman mendesak <em>(+25–50%)</em></li>
+        </ul>
+      </div>
+    </div>
+
+  </div><!-- /pricing-grid -->
+
+  <p class="reveal pricing-footnote" style="transition-delay:.12s">
+    * <em>Satu halaman jadi</em> = A4, Arial 12pt, spasi ganda, margin 2,5 cm, kira-kira 225–250 kata atau 1.500 karakter (dengan spasi) per halaman, sesuai acuan HPI.
+  </p>
+
+  <!-- Metode Pembayaran -->
+  <div class="pricing-payment reveal" style="transition-delay:.14s">
+    <h4>Metode Pembayaran</h4>
+    <div class="payment-methods">
+      <div class="payment-method">
+        <span class="payment-icon" aria-hidden="true">🏦</span>
+        <div>
+          <strong>Transfer Bank</strong>
+          <p>Rekening bank Indonesia (BCA, Mandiri, BRI, BNI). Detail tercantum pada invoice.</p>
+        </div>
+      </div>
+      <div class="payment-method">
+        <span class="payment-icon" aria-hidden="true">💳</span>
+        <div>
+          <strong>PayPal</strong>
+          <p>Tersedia untuk klien internasional. Mendukung USD dan mata uang lainnya.</p>
+        </div>
+      </div>
+    </div>
+    <p style="color:var(--muted);font-size:.85rem;margin-top:1rem">DP 50% diperlukan untuk proyek di atas 5.000 kata. Pelunasan saat pengiriman hasil untuk proyek lebih kecil.</p>
+  </div>
+
+</section>
+
 <!-- BEFORE / AFTER COMPARE -->
 <section id="compare" aria-labelledby="compare-heading">
   <div class="compare-wrapper reveal">
     <div class="section-label" style="justify-content:center;color:var(--navy)">
       <span style="background:var(--navy);width:28px;height:1.5px;display:block" aria-hidden="true"></span>
-      04 — Di review oleh Ahli Bahasa
+      05 · Ditinjau oleh Ahli Bahasa
     </div>
     <h2 id="compare-heading" class="section-title" style="text-align:center">Lihat sendiri <br>bedanya.</h2>
     <p style="text-align:center;color:var(--muted);max-width:520px;margin:0 auto 1rem">
@@ -461,11 +862,11 @@
     <div class="compare-container">
       <div class="compare-panel" id="comparePanel">
         <div class="compare-before">
-          <span class="compare-label">Keluaran AI — Sebelum</span>
+          <span class="compare-label">Keluaran AI: Sebelum</span>
           <div id="compareBeforeText"></div>
         </div>
         <div class="compare-after">
-          <span class="compare-label">QA Fienyx — Sesudah</span>
+          <span class="compare-label">QA Fienyx: Sesudah</span>
           <div id="compareAfterText"></div>
         </div>
       </div>
@@ -474,10 +875,97 @@
   </div>
 </section>
 
+<!-- FAQ -->
+<section id="faq" aria-labelledby="faq-heading">
+  <div class="reveal" style="text-align:center">
+    <div class="section-label" style="justify-content:center">
+      <span style="background:var(--periwinkle);width:28px;height:1.5px;display:block" aria-hidden="true"></span>
+      06 · Pertanyaan Umum
+    </div>
+    <h2 id="faq-heading" class="section-title">Yang perlu Anda ketahui.</h2>
+    <p style="color:var(--muted);max-width:540px;margin:0 auto 0.5rem;font-size:0.92rem">Jawaban pertanyaan yang paling sering diajukan klien.</p>
+  </div>
+
+  <div class="faq-grid reveal" style="transition-delay:.1s">
+    <!-- Q1 -->
+    <div class="faq-item">
+      <button class="faq-btn" aria-expanded="false" aria-controls="faq-a1" id="faq-q1">
+        Apa perbedaan antara terjemahan dan lokalisasi?
+        <span class="faq-btn-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="faq-answer" id="faq-a1" role="region" aria-labelledby="faq-q1">
+        <p><strong>Terjemahan</strong> mengalihbahasakan teks dari satu bahasa ke bahasa lain seakurat mungkin. <strong>Lokalisasi</strong> melangkah lebih jauh: konten disesuaikan dengan konteks budaya tertentu, termasuk idiom, format tanggal/angka, gambar, nada, dan referensi budaya agar terasa benar-benar alami bagi pembaca sasaran.</p>
+        <p>Di Fienyx, setiap proyek terjemahan sudah mencakup proses lokalisasi. Kami tidak pernah hanya mengalihbahasakan kata; kami memastikan makna, maksud, dan ketepatan budaya tersampaikan sepenuhnya.</p>
+      </div>
+    </div>
+
+    <!-- Q2 -->
+    <div class="faq-item">
+      <button class="faq-btn" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">
+        Bagaimana Anda menjaga kerahasiaan dokumen sensitif?
+        <span class="faq-btn-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="faq-answer" id="faq-a2" role="region" aria-labelledby="faq-q2">
+        <p>Kerahasiaan adalah hal yang tidak bisa kami kompromikan. Setiap proyek ditangani sesuai protokol pengelolaan data internal yang ketat, dan seluruh anggota tim terikat pada kewajiban kerahasiaan profesional. File Anda tidak pernah dibagikan di luar tim proyek.</p>
+        <p>Untuk klien hukum, medis, atau korporat yang memerlukannya, kami dengan senang hati menandatangani <strong>Perjanjian Kerahasiaan (NDA)</strong> sebelum pekerjaan dimulai. Cukup ajukan permintaan saat mengirimkan formulir proyek Anda.</p>
+      </div>
+    </div>
+
+    <!-- Q3 -->
+    <div class="faq-item">
+      <button class="faq-btn" aria-expanded="false" aria-controls="faq-a3" id="faq-q3">
+        Bagaimana jika saya membutuhkan pengerjaan mendesak?
+        <span class="faq-btn-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="faq-answer" id="faq-a3" role="region" aria-labelledby="faq-q3">
+        <p>Kami menyediakan <strong>Layanan Ekspres</strong> bagi klien dengan tenggat waktu yang ketat. Pengerjaan standar adalah 3–5 hari kerja per 1.000 kata; proyek ekspres dapat diselesaikan dalam 1–2 hari kerja, tergantung ketersediaan tim dan kompleksitas proyek.</p>
+        <p>Proyek ekspres mungkin dikenakan biaya tambahan untuk layanan cepat. Harap cantumkan tenggat waktu Anda dalam formulir pengajuan dan kami akan mengonfirmasi kelayakan serta harga dalam 1–2 jam pada hari kerja.</p>
+      </div>
+    </div>
+
+    <!-- Q4 -->
+    <div class="faq-item">
+      <button class="faq-btn" aria-expanded="false" aria-controls="faq-a4" id="faq-q4">
+        Format file apa yang Anda terima dan hasilkan?
+        <span class="faq-btn-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="faq-answer" id="faq-a4" role="region" aria-labelledby="faq-q4">
+        <p>Kami menerima sebagian besar format dokumen umum termasuk <strong>.DOCX, .PDF, .XLSX, .PPTX, .TXT, .RTF, .ODT,</strong> dan <strong>.IDML</strong> (InDesign). Untuk transkripsi, kami menerima file audio dan video seperti <strong>.MP4, .WAV, .MP3, .M4A,</strong> dan tautan streaming.</p>
+        <p>Hasil kerja dikembalikan dalam format yang sama dengan file sumber Anda kecuali Anda meminta format lain. Transkrip dapat dikirimkan sebagai teks biasa, file subtitle <strong>.SRT/.VTT</strong>, JSON, atau XML terstruktur.</p>
+      </div>
+    </div>
+
+    <!-- Q5 -->
+    <div class="faq-item">
+      <button class="faq-btn" aria-expanded="false" aria-controls="faq-a5" id="faq-q5">
+        Bagaimana cara penentuan harga? Per kata atau per halaman?
+        <span class="faq-btn-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="faq-answer" id="faq-a5" role="region" aria-labelledby="faq-q5">
+        <p>Satuan standar kami adalah <strong>halaman jadi</strong> untuk terjemahan, penyuntingan, dan proofreading (satu halaman A4 dengan Arial 12pt, spasi ganda, sekitar 225 hingga 250 kata, sesuai standar HPI). Transkripsi dihitung <strong>per menit audio atau video</strong>. Estimasi per kata juga ditampilkan di kartu tarif kami sebagai referensi.</p>
+        <p>Harga akhir bergantung pada pasangan bahasa, kompleksitas materi, tenggat waktu, dan jenis layanan. Kami memberikan penawaran yang jelas dan terperinci sebelum pekerjaan dimulai. Tidak ada biaya tersembunyi, tidak ada kejutan.</p>
+      </div>
+    </div>
+
+    <!-- Q6 -->
+    <div class="faq-item">
+      <button class="faq-btn" aria-expanded="false" aria-controls="faq-a6" id="faq-q6">
+        Bisakah Anda menangani konten dari AI atau draf hasil mesin terjemahan?
+        <span class="faq-btn-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="faq-answer" id="faq-a6" role="region" aria-labelledby="faq-q6">
+        <p>Ya, tentu. Kami menyediakan layanan <strong>Penyuntingan Konten AI dan Humanisasi</strong> yang mencakup seluruh spektrum kebutuhan, dari perbaikan tata bahasa dan nada secara ringan hingga revisi struktural menyeluruh. Apakah konten Anda dihasilkan oleh ChatGPT, Claude, Gemini, atau alat AI lainnya, kami meninjaunya untuk akurasi, koherensi, kelancaran bahasa, dan keselarasan suara merek sebelum dipublikasikan.</p>
+        <p>Kami juga menawarkan layanan <strong>Post-Editing Mesin Terjemahan (PEMT)</strong> untuk draf hasil terjemahan mesin atau AI. Seorang ahli bahasa memeriksa dan memperbaiki outputnya hingga mencapai standar publikasi, sering kali dengan biaya lebih rendah dibanding terjemahan manusia penuh, namun tetap menghasilkan teks yang terverifikasi dan terdengar alami.</p>
+        <p>Satu hal penting: kami tidak menghasilkan konten AI atas nama Anda. Peran kami adalah menjadi pakar manusia yang memastikan apa pun yang dihasilkan AI benar-benar memenuhi standar kualitas yang diharapkan audiens Anda.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- APPLY FORM -->
 <section id="apply" aria-labelledby="apply-heading">
   <div class="form-container reveal">
-    <div class="section-label">05 — Bagaimana Cara Bekerja Sama dengan Kami</div>
+    <div class="section-label">07 · Bagaimana Cara Bekerja Sama dengan Kami</div>
     <h2 id="apply-heading" class="section-title">Mulai Kolaborasi dengan Kami</h2>
     <p class="form-subtitle">Ceritakan proyek Anda dan kami akan menghubungi Anda dalam 1 hingga 2 hari kerja. Tidak ada komitmen apa pun di awal.</p>
 
@@ -490,7 +978,7 @@
     <div id="formMain">
       <form id="applicationForm" action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="4a430dfa-dbe2-4096-af6a-b5cf98ba1c91" />
-        <input type="hidden" name="subject" value="Pengajuan Proyek Baru — Fienyx Translation" />
+        <input type="hidden" name="subject" value="Pengajuan Proyek Baru: Fienyx Translation" />
         <input type="hidden" name="redirect" value="false" />
 
         <div class="form-grid" role="group">
@@ -513,8 +1001,10 @@
               <option value="translation">Penerjemahan</option>
               <option value="transcription">Transkripsi Cerdas</option>
               <option value="light-editing">Penyuntingan Ringan</option>
-              <option value="heavy-editing">Penyuntingan Berat</option>
+              <option value="heavy-editing">Penyuntingan Mendalam</option>
               <option value="proofreading">Proofreading Bebas Kesalahan</option>
+              <option value="ai-content-editing">Penyuntingan Konten AI &amp; Humanisasi</option>
+              <option value="pemt">Post-Editing Mesin Terjemahan (PEMT)</option>
               <option value="lifecycle">Paket Siklus Hidup Konten (Ketiga Layanan)</option>
               <option value="multiple">Beberapa Layanan</option>
             </select>
@@ -528,6 +1018,7 @@
               <option value="book">Buku atau Manuskrip</option>
               <option value="legal">Dokumen Hukum</option>
               <option value="audio-video">Audio / Video (untuk transkripsi)</option>
+              <option value="ai-content">Konten Buatan AI</option>
               <option value="other">Lainnya</option>
             </select>
           </div>
@@ -594,7 +1085,7 @@
 
 <!-- CONTACT -->
 <section id="contact" aria-labelledby="contact-heading">
-  <h2 id="contact-heading">Solusi bahasa tepercaya<br>kerja Anda<em> jadi lebih mudah.</em></h2>
+  <h2 id="contact-heading">Solusi bahasa tepercaya<br>Membuat kerja Anda<em> jadi lebih mudah.</em></h2>
   <p>Ada pertanyaan? Hubungi kami langsung. Kami selalu siap membantu.</p>
   <div class="contact-actions">
     <a href="mailto:contact@fienyxtranslation.site" class="contact-link" aria-label="Kirim email kepada kami">
@@ -607,12 +1098,14 @@
       Halaman Facebook ↗
     </a>
   </div>
+</section>
+
 </main>
 
 <!-- FOOTER -->
 <footer aria-label="Footer situs">
   <div class="footer-brand">
-    <a href="#hero" class="nav-logo" aria-label="Fienyx Translation — kembali ke atas">Fienyx <span>Translation</span></a>
+    <a href="#hero" class="nav-logo" aria-label="Fienyx Translation: kembali ke atas">Fienyx <span>Translation</span></a>
     <p>Sejak 2017, kami hadir sebagai solusi bahasa terpercaya untuk klien di Indonesia dan mancanegara. Keahlian kami mencakup jasa terjemahan profesional, transkripsi, penyuntingan, dan penyelarasan teks.</p>
     <div class="footer-social">
       <a href="https://web.facebook.com/Fienyx.translation" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook (terbuka di tab baru)">f</a>
@@ -626,7 +1119,9 @@
       <li><a href="#about">Tentang Kami</a></li>
       <li><a href="#services">Spesialisasi Kami</a></li>
       <li><a href="#offerings">Jasa yang Kami Tawarkan</a></li>
+      <li><a href="#pricing">Tarif</a></li>
       <li><a href="#compare">Perbandingan Teks Sebelum &amp; Sesudah</a></li>
+      <li><a href="#faq">FAQ</a></li>
       <li><a href="#apply">Mulai Kolaborasi</a></li>
     </ul>
   </div>
@@ -659,7 +1154,7 @@
 
 <script>
 /* ============================================================
-   FIENYX TRANSLATION — MAIN SCRIPTS v3 (Bahasa Indonesia)
+   FIENYX TRANSLATION - MAIN SCRIPTS v3 (Bahasa Indonesia)
    ============================================================ */
 
 window.addEventListener('load', () => {
@@ -757,7 +1252,7 @@ const compareExamples = [
     after:  `Agen terjemahan akan <span class="corrected-text">secara resmi</span> melaksanakan proyek tersebut. Klien sangat <span class="corrected-text">sensitif</span> mengenai tenggat waktu dan tim sangat <span class="corrected-text">berempati</span> terhadap kekhawatirannya.`
   },
   {
-    before: `<span class="error-text">Seperti yang kami katakan di negara kami</span>, ketepatan waktu itu penting. Pertemuan akan dimulai dengan gaya <span class="error-text">jam karet</span> — kami akan mulai <span class="error-text">saat semua orang telah berkumpul</span>.`,
+    before: `<span class="error-text">Seperti yang kami katakan di negara kami</span>, ketepatan waktu itu penting. Pertemuan akan dimulai dengan gaya <span class="error-text">jam karet</span>; kami akan mulai <span class="error-text">saat semua orang telah berkumpul</span>.`,
     after:  `<span class="corrected-text">Ketepatan waktu adalah nilai profesional yang kami junjung tinggi.</span> Rapat akan dimulai tepat <span class="corrected-text">sesuai jadwal,</span> dan peserta diharapkan hadir beberapa menit sebelumnya.`
   }
 ];
@@ -878,6 +1373,42 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     }
   });
 });
+
+// ---- FAQ ACCORDION ----
+document.querySelectorAll('.faq-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    const answerId = btn.getAttribute('aria-controls');
+    const answer = document.getElementById(answerId);
+
+    document.querySelectorAll('.faq-btn').forEach(b => {
+      b.setAttribute('aria-expanded', 'false');
+      const a = document.getElementById(b.getAttribute('aria-controls'));
+      if (a) a.classList.remove('open');
+    });
+
+    if (!expanded) {
+      btn.setAttribute('aria-expanded', 'true');
+      if (answer) answer.classList.add('open');
+    }
+  });
+});
+
+
+// ---- FILE UPLOAD DISPLAY ----
+const fileInput = document.getElementById('fdocupload');
+const fileNamesList = document.getElementById('fdocupload-names');
+if (fileInput && fileNamesList) {
+  fileInput.addEventListener('change', () => {
+    fileNamesList.innerHTML = '';
+    Array.from(fileInput.files).forEach(f => {
+      const tag = document.createElement('span');
+      tag.className = 'file-name-tag';
+      tag.textContent = f.name;
+      fileNamesList.appendChild(tag);
+    });
+  });
+}
 </script>
 </body>
 </html>
