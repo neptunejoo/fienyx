@@ -987,119 +987,378 @@
 <!-- APPLY FORM -->
 <section id="apply" aria-labelledby="apply-heading">
   <div class="form-container reveal">
+
     <div class="section-label">07 · Bagaimana Cara Bekerja Sama dengan Kami</div>
-    <h2 id="apply-heading" class="section-title">Mulai Kolaborasi dengan Kami</h2>
-    <p class="form-subtitle">Ceritakan proyek Anda dan kami akan menghubungi Anda dalam 1 hingga 2 hari kerja. Tidak ada komitmen apa pun di awal.</p>
+
+    <h2 id="apply-heading" class="section-title">
+      Mulai Kolaborasi dengan Kami
+    </h2>
+
+    <p class="form-subtitle">
+      Punya proyek yang ingin dikerjakan bersama kami? Ceritakan kebutuhan Anda
+      melalui formulir di bawah ini. Kami akan menghubungi Anda dalam 1–2 hari
+      kerja untuk membahas detail proyek, jadwal, dan perkiraan biayanya.
+    </p>
 
     <div id="formSuccess" class="form-success" role="status" aria-live="polite" style="display:none">
       <div class="checkmark" aria-hidden="true">✓</div>
-      <h3>Pengajuan Diterima!</h3>
-      <p>Terima kasih telah menghubungi kami. Kami akan meninjau proyek Anda dan segera menghubungi Anda dalam 1–2 hari kerja.</p>
+
+      <h3>Terima Kasih!</h3>
+
+      <p>
+        Detail proyek Anda sudah kami terima. Kami akan meninjaunya dan
+        menghubungi Anda dalam 1–2 hari kerja untuk membahas langkah selanjutnya.
+      </p>
     </div>
 
     <div id="formMain">
       <form id="applicationForm" action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="4a430dfa-dbe2-4096-af6a-b5cf98ba1c91" />
-        <input type="hidden" name="subject" value="Pengajuan Proyek Baru: Fienyx Translation" />
-        <input type="hidden" name="redirect" value="false" />
+
+        <input
+          type="hidden"
+          name="access_key"
+          value="4a430dfa-dbe2-4096-af6a-b5cf98ba1c91"
+        />
+
+        <input
+          type="hidden"
+          name="subject"
+          value="Pengajuan Proyek Baru: Fienyx Translation"
+        />
+
+        <input
+          type="hidden"
+          name="redirect"
+          value="false"
+        />
 
         <div class="form-grid" role="group">
+
+          <!-- Nama -->
           <div class="form-group">
-            <label for="fname">Nama Lengkap <span aria-hidden="true">*</span></label>
-            <input type="text" id="fname" name="name" placeholder="Nama lengkap Anda" required autocomplete="name" />
+            <label for="fname">
+              Nama Lengkap <span aria-hidden="true">*</span>
+            </label>
+
+            <input
+              type="text"
+              id="fname"
+              name="name"
+              placeholder="Masukkan nama lengkap Anda"
+              required
+              autocomplete="name"
+            />
           </div>
+
+          <!-- Email -->
           <div class="form-group">
-            <label for="femail">Alamat Email <span aria-hidden="true">*</span></label>
-            <input type="email" id="femail" name="email" placeholder="anda@email.com" required autocomplete="email" />
+            <label for="femail">
+              Alamat Email <span aria-hidden="true">*</span>
+            </label>
+
+            <input
+              type="email"
+              id="femail"
+              name="email"
+              placeholder="nama@email.com"
+              required
+              autocomplete="email"
+            />
           </div>
+
+          <!-- Organisasi -->
           <div class="form-group">
-            <label for="forg">Organisasi / Institusi</label>
-            <input type="text" id="forg" name="organization" placeholder="Perusahaan, universitas, dll." autocomplete="organization" />
+            <label for="forg">
+              Organisasi / Institusi
+            </label>
+
+            <input
+              type="text"
+              id="forg"
+              name="organization"
+              placeholder="Nama perusahaan, universitas, atau organisasi"
+              autocomplete="organization"
+            />
           </div>
+
+          <!-- Layanan -->
           <div class="form-group">
-            <label for="fservice">Layanan yang Dibutuhkan <span aria-hidden="true">*</span></label>
+            <label for="fservice">
+              Layanan yang Dibutuhkan <span aria-hidden="true">*</span>
+            </label>
+
             <select id="fservice" name="service" required>
-              <option value="" disabled selected>Pilih layanan…</option>
-              <option value="translation">Penerjemahan</option>
-              <option value="transcription">Transkripsi</option>
-              <option value="light-editing">Penyempurnaan Naskah</option>
-              <option value="heavy-editing">Penyuntingan Substantif</option>
-              <option value="proofreading">Proofreading Bebas Kesalahan</option>
-              <option value="ai-content-editing">Penyuntingan Konten AI &amp; Humanisasi</option>
-              <option value="pemt">Post-Editing Mesin Terjemahan (PEMT)</option>
-              <option value="lifecycle">Paket Siklus Hidup Konten (Ketiga Layanan)</option>
-              <option value="multiple">Beberapa Layanan</option>
+              <option value="" disabled selected>
+                Pilih layanan…
+              </option>
+
+              <option value="translation">
+                Penerjemahan
+              </option>
+
+              <option value="transcription">
+                Transkripsi
+              </option>
+
+              <option value="light-editing">
+                Penyempurnaan Naskah
+              </option>
+
+              <option value="heavy-editing">
+                Penyuntingan Substantif
+              </option>
+
+              <option value="proofreading">
+                Proofreading
+              </option>
+
+              <option value="ai-content-editing">
+                Penyuntingan Konten AI
+              </option>
+
+              <option value="pemt">
+                Post-Editing Mesin Terjemahan (PEMT)
+              </option>
+
+              <option value="multiple">
+                Beberapa Layanan
+              </option>
             </select>
           </div>
+
+          <!-- Jenis Dokumen -->
           <div class="form-group">
-            <label for="fdoctype">Jenis Dokumen <span aria-hidden="true">*</span></label>
+            <label for="fdoctype">
+              Jenis Dokumen <span aria-hidden="true">*</span>
+            </label>
+
             <select id="fdoctype" name="doctype" required>
-              <option value="" disabled selected>Pilih jenis dokumen…</option>
-              <option value="academic">Teks Akademik (tesis, artikel, abstrak)</option>
-              <option value="advertising">Iklan / Publikasi</option>
-              <option value="book">Buku atau Manuskrip</option>
-              <option value="legal">Dokumen Hukum</option>
-              <option value="audio-video">Audio / Video (untuk transkripsi)</option>
-              <option value="ai-content">Konten Buatan AI</option>
-              <option value="other">Lainnya</option>
+              <option value="" disabled selected>
+                Pilih jenis dokumen…
+              </option>
+
+              <option value="academic">
+                Teks Akademik (tesis, artikel, abstrak)
+              </option>
+
+              <option value="commercial">
+                Iklan / Publikasi Komersial
+              </option>
+
+              <option value="book">
+                Buku atau Manuskrip
+              </option>
+
+              <option value="legal">
+                Dokumen Legal
+              </option>
+
+              <option value="business">
+                Dokumen Bisnis / Korporat
+              </option>
+
+              <option value="audio-video">
+                Audio / Video untuk Transkripsi
+              </option>
+
+              <option value="ai-content">
+                Konten Buatan AI
+              </option>
+
+              <option value="machine-translation">
+                Hasil Terjemahan Mesin / AI
+              </option>
+
+              <option value="other">
+                Lainnya
+              </option>
             </select>
           </div>
+
+          <!-- Bahasa Sumber -->
           <div class="form-group">
-            <label for="fsource">Bahasa Sumber</label>
+            <label for="fsource">
+              Bahasa Sumber
+            </label>
+
             <select id="fsource" name="source_language">
-              <option value="" disabled selected>Pilih bahasa…</option>
-              <option value="en">Bahasa Inggris</option>
-              <option value="id">Bahasa Indonesia</option>
-              <option value="ar">Bahasa Arab</option>
-              <option value="fr">Bahasa Prancis</option>
-              <option value="other">Lainnya</option>
+              <option value="" disabled selected>
+                Pilih bahasa…
+              </option>
+
+              <option value="en">
+                Bahasa Inggris
+              </option>
+
+              <option value="id">
+                Bahasa Indonesia
+              </option>
+
+              <option value="ar">
+                Bahasa Arab
+              </option>
+
+              <option value="fr">
+                Bahasa Prancis
+              </option>
+
+              <option value="other">
+                Lainnya
+              </option>
             </select>
           </div>
+
+          <!-- Bahasa Target -->
           <div class="form-group">
-            <label for="ftarget">Bahasa Target</label>
+            <label for="ftarget">
+              Bahasa Target
+            </label>
+
             <select id="ftarget" name="target_language">
-              <option value="" disabled selected>Pilih bahasa…</option>
-              <option value="en">Bahasa Inggris</option>
-              <option value="id">Bahasa Indonesia</option>
-              <option value="ar">Bahasa Arab</option>
-              <option value="fr">Bahasa Prancis</option>
-              <option value="other">Lainnya</option>
+              <option value="" disabled selected>
+                Pilih bahasa…
+              </option>
+
+              <option value="en">
+                Bahasa Inggris
+              </option>
+
+              <option value="id">
+                Bahasa Indonesia
+              </option>
+
+              <option value="ar">
+                Bahasa Arab
+              </option>
+
+              <option value="fr">
+                Bahasa Prancis
+              </option>
+
+              <option value="other">
+                Lainnya
+              </option>
             </select>
           </div>
+
+          <!-- Jumlah Kata -->
           <div class="form-group">
-            <label for="fwords">Perkiraan Jumlah Kata</label>
-            <input type="number" id="fwords" name="word_count" placeholder="mis. 3000" min="1" max="9999999" />
+            <label for="fwords">
+              Perkiraan Jumlah Kata
+            </label>
+
+            <input
+              type="number"
+              id="fwords"
+              name="word_count"
+              placeholder="Mis. 3.000"
+              min="1"
+              max="9999999"
+            />
           </div>
+
+          <!-- Tenggat -->
           <div class="form-group">
-            <label for="fdeadline">Tenggat Waktu</label>
-            <input type="date" id="fdeadline" name="deadline" />
+            <label for="fdeadline">
+              Kapan Dibutuhkan?
+            </label>
+
+            <input
+              type="date"
+              id="fdeadline"
+              name="deadline"
+            />
           </div>
+
+          <!-- Deskripsi -->
           <div class="form-group full">
-            <label for="fdesc">Deskripsi Proyek <span aria-hidden="true">*</span></label>
-            <textarea id="fdesc" name="description" placeholder="Ceritakan proyek Anda: tujuannya, audiens yang dituju, dan persyaratan khusus yang perlu kami ketahui…" maxlength="1000" required></textarea>
-            <div class="char-count"><span id="charCount">0</span> / 1000</div>
+            <label for="fdesc">
+              Ceritakan Tentang Proyek Anda <span aria-hidden="true">*</span>
+            </label>
+
+            <textarea
+              id="fdesc"
+              name="description"
+              placeholder="Ceritakan sedikit tentang proyek Anda, tujuan penggunaannya, target pembaca, atau hal khusus yang perlu kami ketahui…"
+              maxlength="1000"
+              required
+            ></textarea>
+
+            <div class="char-count">
+              <span id="charCount">0</span> / 1000
+            </div>
           </div>
+
+          <!-- Referral -->
           <div class="form-group full">
-            <label for="fhear">Dari mana Anda mengetahui kami?</label>
+            <label for="fhear">
+              Bagaimana Anda menemukan Fienyx?
+            </label>
+
             <select id="fhear" name="referral">
-              <option value="" disabled selected>Pilih opsi…</option>
-              <option value="facebook">Facebook</option>
-              <option value="twitter">Twitter / X</option>
-              <option value="instagram">Instagram</option>
-              <option value="referral">Rekomendasi dari kenalan</option>
-              <option value="search">Mesin pencari</option>
-              <option value="other">Lainnya</option>
+              <option value="" disabled selected>
+                Pilih salah satu…
+              </option>
+
+              <option value="facebook">
+                Facebook
+              </option>
+
+              <option value="twitter">
+                Twitter / X
+              </option>
+
+              <option value="instagram">
+                Instagram
+              </option>
+
+              <option value="referral">
+                Rekomendasi dari kenalan
+              </option>
+
+              <option value="search">
+                Mesin pencari
+              </option>
+
+              <option value="other">
+                Lainnya
+              </option>
             </select>
           </div>
+
+          <!-- Form Note -->
           <div class="form-group full">
-            <p class="form-note">Kolom bertanda <span style="color:var(--periwinkle)" aria-hidden="true">*</span> wajib diisi. Kami akan menghubungi Anda untuk membahas harga dan jadwal sebelum ada komitmen apa pun. Semua file dan informasi Anda dijaga kerahasiaannya.</p>
+            <p class="form-note">
+              Kolom bertanda
+              <span style="color:var(--periwinkle)" aria-hidden="true">*</span>
+              wajib diisi. Setelah menerima detail proyek Anda, kami akan
+              menghubungi Anda untuk membahas kebutuhan, jadwal, dan perkiraan
+              biaya. Tidak ada pekerjaan yang dimulai sebelum detail dan
+              penawaran disepakati bersama.
+            </p>
           </div>
+
         </div>
 
+        <!-- Submit -->
         <div class="form-submit">
-          <button class="btn-submit" id="submitBtn" type="submit" aria-describedby="form-privacy-note">Kirim Pengajuan Saya</button>
-          <p class="form-privacy" id="form-privacy-note">🔒 Informasi Anda sepenuhnya dijaga kerahasiaannya dan tidak pernah dibagikan kepada pihak ketiga.</p>
+
+          <button
+            class="btn-submit"
+            id="submitBtn"
+            type="submit"
+            aria-describedby="form-privacy-note"
+          >
+            Kirim Detail Proyek
+          </button>
+
+          <p class="form-privacy" id="form-privacy-note">
+            🔒 Kami menjaga kerahasiaan informasi dan file yang Anda kirimkan
+            dan tidak membagikannya kepada pihak di luar tim.
+          </p>
+
         </div>
+
       </form>
     </div>
   </div>
