@@ -533,8 +533,8 @@
   <div class="tabs-nav" style="margin-top:2.5rem" role="tablist" aria-label="Jenis layanan">
     <button class="tab-btn active" data-tab="translating" role="tab" aria-selected="true" aria-controls="tab-translating" id="btn-translating">Penerjemahan</button>
     <button class="tab-btn" data-tab="transcription" role="tab" aria-selected="false" aria-controls="tab-transcription" id="btn-transcription">Transkripsi</button>
-    <button class="tab-btn" data-tab="light-editing" role="tab" aria-selected="false" aria-controls="tab-light-editing" id="btn-light-editing">Penyuntingan Ringan</button>
-    <button class="tab-btn" data-tab="heavy-editing" role="tab" aria-selected="false" aria-controls="tab-heavy-editing" id="btn-heavy-editing">Penyuntingan Mendalam</button>
+    <button class="tab-btn" data-tab="light-editing" role="tab" aria-selected="false" aria-controls="tab-light-editing" id="btn-light-editing">Penyempurnaan Naskah</button>
+    <button class="tab-btn" data-tab="heavy-editing" role="tab" aria-selected="false" aria-controls="tab-heavy-editing" id="btn-heavy-editing">Penyuntingan Substantif</button>
     <button class="tab-btn" data-tab="proofreading" role="tab" aria-selected="false" aria-controls="tab-proofreading" id="btn-proofreading">Proofreading</button>
     <button class="tab-btn" data-tab="ai-editing" role="tab" aria-selected="false" aria-controls="tab-ai-editing" id="btn-ai-editing">Penyuntingan Konten AI</button>
   </div>
@@ -543,7 +543,7 @@
     <div class="tab-info">
       <div class="tab-badge">Jasa Utama</div>
       <h2>Penerjemahan</h2>
-      <p>Bagi kami, terjemahan yang baik bukan sekadar memindahkan kata dari satu bahasa ke bahasa lain. Kami selalu menjaga dua hal utama:<strong style="color:var(--blush)">ketepatan makna</strong> dan <strong style="color:var(--blush)">keluwesan bahasa</strong>. Artinya, pesan dari teks asli tetap tersampaikan secara utuh tanpa ada informasi yang ditambah atau dikurangi, sementara hasil terjemahannya tetap terasa alami dan enak dibaca dalam bahasa target.</p>
+      <p>Bagi kami, terjemahan yang baik bukan sekadar memindahkan kata dari satu bahasa ke bahasa lain. Kami selalu menjaga dua hal utama:<strong style="color:var(--blush)"> ketepatan makna </strong> dan <strong style="color:var(--blush)">keluwesan bahasa</strong>. Artinya, pesan dari teks asli tetap tersampaikan secara utuh tanpa ada informasi yang ditambah atau dikurangi, sementara hasil terjemahannya tetap terasa alami dan enak dibaca dalam bahasa target.</p>
       <p>Kami juga menyesuaikan setiap terjemahan dengan konteks budaya, karakter audiens, dan bidang yang dibahas. Dengan begitu, pesan Anda tidak hanya benar secara struktur bahasa, tetapi juga terasa relevan dan dekat dengan pembacanya.</p>
       <a href="#apply" class="btn-primary" style="display:inline-block;margin-top:1.5rem">Mulai Kolaborasi</a>
     </div>
@@ -583,19 +583,18 @@
   <div class="tab-content" id="tab-light-editing" role="tabpanel" aria-labelledby="btn-light-editing">
     <div class="tab-info">
       <div class="tab-badge">Layanan Penyuntingan</div>
-      <h2>Penyuntingan Ringan</h2>
-      <p>Pemeriksaan terfokus yang menyisir kesalahan di permukaan dan menghaluskan bagian yang kurang lancar, tanpa menyentuh suara dan struktur asli tulisan Anda. Cocok untuk teks yang sudah hampir matang dan hanya butuh sentuhan akhir agar bersih, jelas, dan enak dibaca. Layanan ini juga tepat untuk konten AI yang membutuhkan perbaikan tata bahasa dan nada sebelum digunakan.</p>
+      <h2>Penyempurnaan Naskah</h2>
+      <p>Kalau naskah Anda sudah hampir selesai dan hanya perlu sedikit dirapikan, layanan ini cocok untuk Anda. Kami memeriksa tata bahasa, ejaan, tanda baca, serta bagian yang terasa kurang jelas tanpa mengubah gaya dan karakter tulisan Anda.</p>
       <a href="#apply" class="btn-primary" style="display:inline-block;margin-top:1.5rem">Mulai Kolaborasi</a>
     </div>
     <div>
       <ul class="tab-list">
-        <li>Tata bahasa, ejaan, dan tanda baca</li>
-        <li>Kesalahan sintaksis minor</li>
-        <li>Kata atau frasa yang membingungkan (disertai komentar)</li>
-        <li>Kekeliruan pada fakta umum dan pengetahuan dasar</li>
-        <li>Pilihan kata yang tidak sesuai subjek atau pembaca sasaran</li>
-        <li>Panduan izin kutipan dan penulisan sitasi</li>
-        <li>Perbaikan tata bahasa dan nada untuk konten AI</li>
+        <li>Perbaikan tata bahasa, ejaan, dan tanda baca</li>
+        <li>Perbaikan struktur kalimat</li>
+        <li>Perbaikan kata atau frasa yang kurang jelas (disertai komentar)</li>
+        <li>Penyesuaian pilihan kata agar sesuai dengan target pembaca</li>
+        <li>Perbaikan tata bahasa dan gaya bahasa pada konten AI</li>
+        <li>Pemeriksaan dasar kutipan dan format sitasi</li>
       </ul>
     </div>
   </div>
@@ -603,88 +602,97 @@
   <div class="tab-content" id="tab-heavy-editing" role="tabpanel" aria-labelledby="btn-heavy-editing">
     <div class="tab-info">
       <div class="tab-badge">Penyuntingan Substantif</div>
-      <h2>Penyuntingan Mendalam</h2>
-      <p>Revisi menyeluruh dari sisi struktur maupun bahasa, mulai dari kohesi, koherensi, paralelisme, hingga kejelasan isi secara keseluruhan. Kami memperkuat alur logis, memangkas pengulangan, dan menyesuaikan konten agar relevan secara budaya bagi audiens yang Anda sasar.</p>
-      <p>Kami membedakan antara <em>Penyuntingan Teknis</em> (presisi dan kejelasan) dan <em>Penyuntingan Kreatif</em> (nada dan gaya), dan menerapkan keduanya sesuai kebutuhan proyek Anda. Layanan ini juga sangat efektif untuk konten AI yang perlu distrukturisasi ulang, diverifikasi faktanya, dan diberi nuansa bahasa yang alami.</p>
+      <h2>Penyuntingan Substantif</h2>
+      <p>Untuk naskah yang membutuhkan lebih dari sekadar perbaikan tata bahasa, kami menawarkan penyuntingan substantif yang mencakup struktur, alur, dan kejelasan isi. Kami merapikan hubungan antar ide, memperbaiki alur pikir yang kurang logis, mengurangi pengulangan, dan memastikan setiap gagasan saling terhubung.</p>
+      <p>Kami menyesuaikan pendekatan penyuntingan dengan kebutuhan naskah. Fokusnya dapat mencakup keakuratan dan kejelasan bahasa, sekaligus gaya dan nada tulisan agar penyampaiannya lebih efektif dan sesuai dengan pembaca sasaran. Untuk konten AI, kami juga membantu menyusun ulang struktur, memperbaiki bagian yang terasa masih seperti robot, dan membuat tulisan terasa lebih natural.</p>
       <a href="#apply" class="btn-primary" style="display:inline-block;margin-top:1.5rem">Mulai Kolaborasi</a>
     </div>
     <div>
       <ul class="tab-list">
-        <li>Tata bahasa, ejaan, huruf kapital, format, dan tanda baca</li>
-        <li>Bahasa yang menghambat komunikasi efektif</li>
-        <li>Alur yang tidak logis, pengulangan, dan isi yang saling bertentangan</li>
-        <li>Judul, ilustrasi, tabel, angka, dan referensi</li>
-        <li>Penyesuaian lintas budaya untuk demografis target</li>
-        <li>Pilihan retorika dan gaya bahasa</li>
-        <li>Kata ganti dan konjungsi untuk kelancaran bacaan</li>
-        <li>Restrukturisasi mendalam dan humanisasi konten AI</li>
-        <li>Deteksi halusinasi dan kesalahan fakta pada konten AI</li>
+        <li>Perbaikan tata bahasa, ejaan, huruf kapital, format, dan tanda baca</li>
+        <li>Perbaikan kalimat atau bagian yang mempersulit pemahaman</li>
+        <li>Perapian alur gagasan, pengurangan kata-kata yang diulangi, dan penyelarasan gagasan yang bertentangan dengan isi ide pokok</li>
+        <li>Pemeriksaan judul, ilustrasi, tabel, angka, dan referensi</li>
+        <li>Penyesuaian bahasa dengan konteks budaya dan target pembaca</li>
+        <li>Penyempurnaan gaya bahasa, nada, dan cara penyampaian</li>
+        <li>Perbaikan penggunaan kata ganti dan kata penghubung agar tulisan lebih mudah dipahami</li>
+        <li>Restrukturisasi dan penyempurnaan konten AI agar lebih natural</li>
+        <li>Pemeriksaan indikasi halusinasi dan ketidakakuratan fakta pada konten AI</li>
       </ul>
     </div>
   </div>
 
   <div class="tab-content" id="tab-proofreading" role="tabpanel" aria-labelledby="btn-proofreading">
     <div class="tab-info">
-      <div class="tab-badge">Jaminan Kualitas Linguistik</div>
-      <h2>Proofreading Bebas Kesalahan</h2>
-      <p>Audit <strong style="color:var(--blush)">Jaminan Kualitas Linguistik</strong> berlapis yang jauh melampaui sekadar cek ejaan. Kami memverifikasi tata bahasa, konsistensi format, dan keselarasan suara merek untuk memastikan dokumen Anda benar-benar siap dipublikasikan.</p>
-      <p>Anggap layanan ini sebagai garis pertahanan terakhir untuk kampanye berdampak tinggi, naskah akademik, dan publikasi apa pun yang tidak bisa mentoleransi satu kesalahan pun. Kami juga menawarkan pemeriksaan akhir khusus konten AI untuk menangkap frasa kaku, pola berulang, dan ketidakkonsistenan yang sering luput dari pemeriksaan otomatis.</p>
+      <div class="tab-badge">Pemeriksaan Akhir</div>
+      <h2>Proofreading</h2>
+      <p>Tahap terakhir sebelum naskah Anda dipublikasikan. Kami memeriksa ejaan, tata bahasa, tanda baca, format, dan konsistensi gaya bahasa untuk memastikan tulisan sudah rapi dan siap terbit atau dipublikasikan. Proses ini dilakukan tanpa mengubah isi atau karakter tulisan Anda.  </p>
+      <p>Layanan ini cocok untuk naskah yang sudah selesai ditulis dan disunting, tetapi masih membutuhkan pemeriksaan akhir untuk menemukan kesalahan kecil yang mungkin terlewat. Kami juga dapat memeriksa konten AI untuk menemukan frasa yang terasa kaku, pengulangan, dan ketidakkonsistenan yang sering luput dari pemeriksaan. </p>
       <a href="#apply" class="btn-primary" style="display:inline-block;margin-top:1.5rem">Mulai Kolaborasi</a>
     </div>
     <div>
       <ul class="tab-list">
-        <li>Audit berlapis tanpa celah kesalahan</li>
-        <li>Kesalahan ejaan dan ketik</li>
-        <li>Huruf kapital dan tanda baca</li>
-        <li>Format: ukuran huruf, tebal/miring, spasi, indentasi</li>
-        <li>Pemeriksaan keselarasan suara merek</li>
-        <li>Konsistensi format di seluruh dokumen</li>
-        <li>Kekeliruan kecil dari penulis atau penyunting</li>
-        <li>Pemeriksaan akhir konten AI: frasa kaku dan ketidakkonsistenan</li>
+        <li>Pemeriksaan akhir sebelum publikasi</li>
+        <li>Koreksi kesalahan ejaan dan pengetikan</li>
+        <li>Pemeriksaan huruf kapital dan tanda baca</li>
+        <li>Pemeriksaan format, termasuk ukuran huruf, cetak tebal/miring, spasi, dan indentasi</li>
+        <li>Pemeriksaan konsistensi gaya dan suara brand</li>
+        <li>Pemeriksaan konsistensi format di seluruh dokumen</li>
+        <li>Koreksi kesalahan kecil yang terlewat saat penulisan atau penyuntingan</li>
+        <li>Pemeriksaan akhir konten AI untuk menemukan frasa kaku, pengulangan, dan ketidakkonsistenan penggunaan bahasa</li>
       </ul>
     </div>
   </div>
 
   <div class="tab-content" id="tab-ai-editing" role="tabpanel" aria-labelledby="btn-ai-editing">
     <div class="tab-info">
-      <div class="tab-badge">Layanan Baru</div>
-      <h2>Penyuntingan Konten AI &amp; Humanisasi</h2>
-      <p>AI dapat menghasilkan draf pertama dalam hitungan detik, tetapi teks mentah dari AI jarang langsung siap tayang. Bisa jadi berulang, lemah secara fakta, datar dalam nada, atau kurang memiliki kedalaman yang diharapkan pembaca Anda. Tim kami hadir untuk menjembatani celah itu, mengubah draf AI menjadi konten yang akurat, menarik, dan benar-benar mencerminkan identitas Anda.</p>
-      <p>Apakah Anda butuh perbaikan ringan atau revisi struktural menyeluruh, kami menerapkan tingkat keahlian manusia yang tepat agar konten AI Anda benar-benar bekerja.</p>
+      <div class="tab-badge">Layanan Penyuntingan Konten AI</div>
+      <h2>Penyuntingan Konten AI</h2>
+      <p>AI memang bisa membantu menghasilkan draf dalam hitungan detik, tetapi hasilnya belum tentu siap dipublikasikan. Tulisannya bisa terasa kaku, berulang, kurang akurat, atau belum sepenuhnya sesuai dengan gaya dan karakter brand Anda. </p>
+      <p>Kami membantu menyempurnakan draf tersebut menjadi konten yang lebih natural, jelas, akurat, dan mudah dibaca. Mulai dari perbaikan bahasa hingga penyusunan ulang struktur, kami dapat menyesuaikan tingkat penyuntingan dengan kebutuhan naskah. </p>
       <a href="#apply" class="btn-primary" style="display:inline-block;margin-top:1.5rem">Mulai Kolaborasi</a>
     </div>
     <div>
       <ul class="tab-list">
-        <li>Koreksi tata bahasa, nada, dan koherensi</li>
-        <li>Humanisasi: menghapus frasa kaku dan meningkatkan kelancaran alami</li>
-        <li>Deteksi halusinasi dan kesalahan fakta</li>
-        <li>Penyesuaian suara merek dan konsistensi</li>
-        <li>Peningkatan alur dan struktur logis</li>
-        <li>Tinjauan kepekaan budaya dan lokalisasi</li>
-        <li>Verifikasi kutipan, referensi, dan sumber</li>
-        <li>Post-Editing Terjemahan Mesin (PEMT) untuk draf terjemahan AI</li>
+        <li>Perbaikan tata bahasa, nada, dan keterhubungan antargagasan</li>
+        <li>Penyempurnaan gaya bahasa agar tulisan terasa lebih natural</li>
+        <li>Pemeriksaan indikasi halusinasi dan ketidakakuratan fakta</li>
+        <li>Penyesuaian gaya dan suara brand agar tetap konsisten</li>
+        <li>Perapian alur dan struktur pikir agar lebih logis</li>
+        <li>Penyesuaian bahasa berdasarkan konteks budaya dan target pembaca</li>
+        <li>Pemeriksaan kutipan, referensi, dan sumber</li>
+        <li>Post-Editing Terjemahan Mesin (PEMT) untuk hasil terjemahan berbasis AI</li>
       </ul>
     </div>
   </div>
 
   <div class="value-ladder reveal">
     <h3>Alur Kerja Kami</h3>
-    <p>Tentukan tahap yang paling sesuai dengan kebutuhan proyek Anda, atau gunakan layanan terpadu kami untuk hasil berkualitas dari awal hingga akhir.</p>
     <div class="ladder-steps">
       <div class="ladder-step">
         <div class="step-num">01</div>
-        <h4>Titik Awal</h4>
-        <p>Transkripsi, kami mengubah rekaman audio, video, atau rapat Anda menjadi teks terstruktur yang siap digunakan.</p>
+        <h4>Menganalisis Kebutuhan Proyek</h4>
+        <p>Kami mempelajari naskah dan memahami tujuan dari naskah tersebut, target pembaca, serta kebutuhan Anda. Jika ada hal yang perlu diperjelas, kami akan mendiskusikannya bersama sebelum pekerjaan dimulai.</p>
       </div>
       <div class="ladder-step">
         <div class="step-num">02</div>
-        <h4>Pengolahan Kualitas</h4>
-        <p>Penyuntingan, kami mengolah transkrip mentah itu menjadi artikel blog, laporan, atau dokumen teknis yang rapi dan layak dipercaya.</p>
+        <h4>Menentukan Layanan yang Sesuai</h4>
+        <p>Setelah memahami kebutuhan proyek, kami menentukan layanan yang paling tepat, baik penerjemahan, penyuntingan, proofreading, transkripsi, maupun kombinasi beberapa layanan.</p>
       </div>
       <div class="ladder-step">
         <div class="step-num">03</div>
-        <h4>Tahap Akhir</h4>
-        <p>Proofreading, kami melakukan audit kualitas menyeluruh agar dokumen final keluar dari tangan kami bebas dari kesalahan dan siap dipublikasikan.</p>
+        <h4>Mulai Pengerjaan</h4>
+        <p>Kami mengerjakan naskah dengan memperhatikan makna, ketepatan bahasa, gaya penulisan, konteks, dan target pembaca. Setiap proyek ditangani sesuai kebutuhan dan karakter naskahnya.</p>
+      </div>
+      <div class="ladder-step">
+        <div class="step-num">04</div>
+        <h4>Memeriksa Kembali</h4>
+        <p>Setelah pengerjaan selesai, kami memeriksa kembali hasilnya untuk memastikan bahasa, isi, format, dan konsistensinya tetap terjaga.</p>
+      </div>
+      <div class="ladder-step">
+        <div class="step-num">05</div>
+        <h4>MenyerahkanHasil Akhir</h4>
+        <p>Hasil akhir diserahkan dalam format yang telah disepakati dan siap dipublikasikan, atau dilanjutkan ke tahap berikutnya.</p>
       </div>
     </div>
   </div>
@@ -768,7 +776,7 @@
       <div class="pricing-card-header">
         <div class="tab-badge" style="margin-bottom:.6rem">Layanan Penyuntingan</div>
         <h3>Penyuntingan</h3>
-        <p class="pricing-lang">Ringan &amp; Berat / Substantif</p>
+        <p class="pricing-lang">Penyempurnaan &amp; Substantif</p>
       </div>
       <div class="pricing-rate">
         <span class="pricing-amount">Rp 100.000–175.000</span>
@@ -783,7 +791,7 @@
       <div class="pricing-surcharge">
         <p>Tarif ditentukan oleh:</p>
         <ul>
-          <li>Penyuntingan ringan: ujung bawah rentang</li>
+          <li>Penyempurnaan Naskah: ujung bawah rentang</li>
           <li>Penyuntingan berat / substantif: ujung atas</li>
           <li>Pengiriman mendesak <em>(+25–50%)</em></li>
         </ul>
@@ -1004,9 +1012,9 @@
             <select id="fservice" name="service" required>
               <option value="" disabled selected>Pilih layanan…</option>
               <option value="translation">Penerjemahan</option>
-              <option value="transcription">Transkripsi Cerdas</option>
-              <option value="light-editing">Penyuntingan Ringan</option>
-              <option value="heavy-editing">Penyuntingan Mendalam</option>
+              <option value="transcription">Transkripsi</option>
+              <option value="light-editing">Penyempurnaan Naskah</option>
+              <option value="heavy-editing">Penyuntingan Substantif</option>
               <option value="proofreading">Proofreading Bebas Kesalahan</option>
               <option value="ai-content-editing">Penyuntingan Konten AI &amp; Humanisasi</option>
               <option value="pemt">Post-Editing Mesin Terjemahan (PEMT)</option>
